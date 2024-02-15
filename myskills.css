@@ -1,0 +1,113 @@
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    background-color: rgb(83, 7, 49);
+    color: rgb(237, 193, 218);
+}
+.content .home{
+    background-color:  rgb(237, 193, 218);
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 5px solid rgb(83, 7, 49);
+  
+}
+.content .home a{
+    color:rgb(83, 7, 49);
+    font-weight: bold;
+}
+.content{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: rgb(237, 193, 218);
+    flex-direction: column;
+    color:rgb(83, 7, 49) ;
+}
+table{
+    background-color: rgb(83, 7, 49) ;
+    color: rgb(237, 193, 218) ;
+
+    padding: 2px;
+    height: 410px; ;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-collapse: collapse;
+    
+
+    
+
+}
+table tr{
+    height: 100px;
+    
+}
+th,td{
+    border: double  rgb(237, 193, 218);
+    border-spacing: 2px;
+    padding: 10px;
+}
+.home:hover {
+    background-color: rgb(83, 7, 49) ;
+  
+   
+    
+}
+.home:hover a{
+      color: rgb(237, 193, 218) ;
+      font-weight: bold;
+}
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    height: 7vh;
+    background-color:rgb(83, 7, 49); ;
+    color: rgb(237, 193, 218);
+    display : flex ;
+    align-items: center; 
+    justify-content: center;
+}
